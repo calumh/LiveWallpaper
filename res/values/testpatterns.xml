@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<string-array name="livewallpaper_testpattern_names">
+		<item>"Center"</item>
+		<item>"Left Align"</item>
+		<item>"Right Align"</item>
+	</string-array>
+
+	<string-array name="livewallpaper_testpattern_prefix">
+		<item>"center"</item>
+		<item>"left"</item>
+		<item>"right"</item>
+	</string-array>
+</resources>

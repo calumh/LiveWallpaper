@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+	android:title="@string/livewallpaper_settings"
+	android:key="livewallpaper_settings">
+	<Preference android:title="@string/imgTitle"
+                android:key="button"
+                android:summary="@string/imgSum"/>
+	<Preference android:title="@string/backTitle"
+                android:key="button2"
+                android:summary="@string/backSum"/>
+	<ListPreference  
+	    		android:key="listPref" 
+	    		android:entryValues="@array/livewallpaper_testpattern_prefix" 
+	    		android:title="@string/positionTitle" 
+	    		android:entries="@array/livewallpaper_testpattern_names" 
+	    		android:summary="@string/positionSum"/>
+	<EditTextPreference android:title="@string/bottomTitle"
+                android:key="botHeight"
+                android:summary="@string/bottomSum"
+				android:inputType="numberSigned"
+	 			android:defaultValue = "0"/>
+		<EditTextPreference android:title="@string/statTitle"
+                android:key="statHeight"
+                android:summary="@string/statSum"
+				android:inputType="numberSigned"
+	 			android:defaultValue = "0"/>
+	<Preference android:title="@string/defaultTitle"
+                android:key="button3" />
+	
+
+</PreferenceScreen>
